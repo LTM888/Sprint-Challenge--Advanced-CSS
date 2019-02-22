@@ -24,7 +24,13 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+      @media (max-width: 500px) {
+      width: 100%;
+
+      }
     }
+
   }
 
   .visit-planets {
@@ -68,95 +74,92 @@
 
       img {
         width: 100%;
-        height: auto;
         border-radius: 10px;
-      }
-    }
-  }
-}
-
-// home
-
-
-.container {
-  @media(max-width: 500px) {
-    background: yellow;
-    display: flex;
-    flex-direction: column;
-
-    .intro {
-      .headerpic {
-        width: 100%;
         height: auto;
-        border-radius: 5px;
-      }
+        
+        @media (max-width: 500px) {
+        width: 100%;
 
-    }
-  }
-}
-
-.space-images {
-
-  @media(max-width: 500px) {
-    border: 1px solid red;
-    height: auto;
-    display: flex;
-
-    img {
-      width: 100%;
-      display: block;
-      height: 100%;
-
-    }
-
-    .blast {
-      width: 100%;
-      height: auto;
-
-    }
-
-    .sky {
-      display: none;
-    }
-
-    .launch {
-      display: none;
-    }
-
-  }
-}
-
-.home {
-  .walk {
-    @media(max-width: 500px) {
-      border: 1px solid red;
-      display: flex;
-      flex-direction: column-reverse;
-      .center;
-
-      .walk-text {
-        border: 1px solid red;
-        display: block;
-        width: 450px;
-        padding: 8px;
-
-        .btn{
-          .custom-button;
-          width: @phone;
-          
         }
-        
-        
-        
-        
-        
-        
 
 
+      }
+    }
+  }
+}
+  // home
+
+
+  .container {
+    @media(max-width: 500px) {
+      background: yellow;
+      display: flex;
+      flex-direction: column;
+
+      .intro {
+        .headerpic {
+          width: 100%;
+          height: auto;
+          border-radius: 5px;
+        }
+
+      }
+    }
+  }
+
+
+  .space-images {
+
+    @media(max-width: 500px) {
+      // border: 1px solid red;
+      height: auto;
+      display: flex;
+
+      img {
+        width: 100%;
+        display: block;
+        height: 100%;
+      }
+
+      .blast {
+        display: block;
+
+      }
+
+      .sky {
+        display: none;
+      }
+
+      .launch {
+        display: none;
+      }
+
+    }
+  }
+
+  .home {
+    .walk {
+      @media(max-width: 500px) {
+        border: 1px solid red;
+        display: flex;
+        flex-direction: column-reverse;
+        .center;
+
+        .walk-text {
+          border: 1px solid red;
+          display: block;
+          width: 450px;
+          padding: 8px;
+
+          .btn {
+            .custom-button;
+            width: @phone;
+          }
+
+
+        }
 
       }
 
     }
-
   }
-}
