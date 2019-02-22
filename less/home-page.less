@@ -78,10 +78,10 @@
         height: auto;
 
         @media (max-width: 500px) {
-          
-          width: 479px;
-          border: 2px solid red;
-          margin: auto;
+          width: 450px;
+          // border: 2px solid red;
+          margin: 0 auto;
+          margin-right: 38px;
 
 
 
@@ -101,7 +101,7 @@
 
 .container {
   @media(max-width: 500px) {
-    background: yellow;
+    // background: yellow;
     display: flex;
     flex-direction: column;
     .center;
@@ -112,6 +112,7 @@
         width: 100%;
         height: auto;
         border-radius: 5px;
+        width: @phone;
       }
 
     }
@@ -125,6 +126,7 @@
     // border: 1px solid red;
     height: auto;
     display: flex;
+    width: @phone;
 
     img {
       width: 100%;
@@ -151,14 +153,14 @@
 .home {
   .walk {
     @media(max-width: 500px) {
-      border: 1px solid red;
+      // border: 1px solid red;
       display: flex;
       flex-direction: column-reverse;
-      .center;
+      
 
 
-      .walk-text {
-        border: 1px solid red;
+    .walk-text {
+        // border: 1px solid red;
         display: block;
         width: 450px;
         padding: 8px;

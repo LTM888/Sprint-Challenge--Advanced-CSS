@@ -179,9 +179,6 @@ p {
   color: #454A59;
 }
 @media (max-width: 500px) {
-  .nav-home {
-    background: pink;
-  }
 }
 footer {
   color: #22283B;
@@ -266,14 +263,13 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img img {
-    width: 479px;
-    border: 2px solid red;
-    margin: auto;
+    width: 450px;
+    margin: 0 auto;
+    margin-right: 38px;
   }
 }
 @media (max-width: 500px) {
   .container {
-    background: yellow;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -283,12 +279,14 @@ footer {
     width: 100%;
     height: auto;
     border-radius: 5px;
+    width: max-width 500px;
   }
 }
 @media (max-width: 500px) {
   .space-images {
     height: auto;
     display: flex;
+    width: max-width 500px;
   }
   .space-images img {
     width: 100%;
@@ -307,14 +305,10 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk {
-    border: 1px solid red;
-    flex-direction: column-reverse;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column-reverse;
   }
   .home .walk .walk-text {
-    border: 1px solid red;
     display: block;
     width: 450px;
     padding: 8px;
