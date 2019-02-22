@@ -1,1 +1,29 @@
 // Navigation code here
+.nav-home {
+    // border: 1px solid red;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1%;
+    background-color: @main-border-color;
+
+    h1 {
+        display: block;
+        margin-bottom: 15px;
+        font-size: 3em;
+    }
+
+    nav a {
+        margin: 10px;
+        font-size: 1.5em;
+        text-decoration: none;
+        color: @nav-font;
+    }
+}
+
+.nav-home {
+    @media(max-width: 500px) {
+        background: pink;
+    }
+
+}
