@@ -59,7 +59,7 @@
 
       .btn {
         .cust-btn;
-       }
+      }
     }
 
     .walk-img {
@@ -80,20 +80,19 @@
 
 .container {
   @media(max-width: 500px) {
-    background: pink;
+    background: yellow;
     display: flex;
     flex-direction: column;
-  }
-.intro{
 
-  .headerpic {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
-  }
+    .intro {
+      .headerpic {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
 
-}
-  
+    }
+  }
 }
 
 .space-images {
@@ -103,42 +102,59 @@
     height: auto;
     display: flex;
 
-    img{
+    img {
       width: 100%;
       display: block;
       height: 100%;
-      
+
     }
 
     .blast {
       width: 100%;
       height: auto;
-      
+
     }
 
-      .sky {
-        display: none;
-      }
+    .sky {
+      display: none;
+    }
 
-      .launch {
-        display: none;
-      }
-    
+    .launch {
+      display: none;
+    }
+
   }
 }
 
-.walk {
- @media(max-width: 500px) {
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column-reverse;
+.home {
+  .walk {
+    @media(max-width: 500px) {
+      border: 1px solid red;
+      display: flex;
+      flex-direction: column-reverse;
+      .center;
 
-    .btn {
-      .custom-button;
+      .walk-text {
+        border: 1px solid red;
+        display: block;
+        width: 450px;
+        padding: 8px;
+
+        .btn{
+          .custom-button;
+        }
+        
+        
+        
+        
+        
+        
+
+
+
+      }
+
     }
 
-
-
+  }
 }
-}
-  

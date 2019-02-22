@@ -261,15 +261,15 @@ footer {
 }
 @media (max-width: 500px) {
   .container {
-    background: pink;
+    background: yellow;
     display: flex;
     flex-direction: column;
   }
-}
-.container .intro .headerpic {
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
+  .container .intro .headerpic {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
 }
 @media (max-width: 500px) {
   .space-images {
@@ -294,9 +294,17 @@ footer {
   }
 }
 @media (max-width: 500px) {
-  .walk {
+  .home .walk {
     border: 1px solid red;
-    display: flex;
     flex-direction: column-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .walk .walk-text {
+    border: 1px solid red;
+    display: block;
+    width: 450px;
+    padding: 8px;
   }
 }
