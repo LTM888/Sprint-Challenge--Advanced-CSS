@@ -266,14 +266,18 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img img {
-    width: 100%;
+    width: 479px;
+    border: 2px solid red;
+    margin: auto;
   }
 }
 @media (max-width: 500px) {
   .container {
     background: yellow;
-    display: flex;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .container .intro .headerpic {
     width: 100%;

@@ -26,7 +26,7 @@
       height: 100%;
 
       @media (max-width: 500px) {
-      width: 100%;
+        width: 100%;
 
       }
     }
@@ -76,9 +76,17 @@
         width: 100%;
         border-radius: 10px;
         height: auto;
-        
+
         @media (max-width: 500px) {
-        width: 100%;
+          
+          width: 479px;
+          border: 2px solid red;
+          margin: auto;
+
+
+
+
+
 
         }
 
@@ -87,79 +95,83 @@
     }
   }
 }
-  // home
+
+// home
 
 
-  .container {
-    @media(max-width: 500px) {
-      background: yellow;
-      display: flex;
-      flex-direction: column;
-
-      .intro {
-        .headerpic {
-          width: 100%;
-          height: auto;
-          border-radius: 5px;
-        }
-
-      }
-    }
-  }
+.container {
+  @media(max-width: 500px) {
+    background: yellow;
+    display: flex;
+    flex-direction: column;
+    .center;
 
 
-  .space-images {
-
-    @media(max-width: 500px) {
-      // border: 1px solid red;
-      height: auto;
-      display: flex;
-
-      img {
+    .intro {
+      .headerpic {
         width: 100%;
-        display: block;
-        height: 100%;
-      }
-
-      .blast {
-        display: block;
-
-      }
-
-      .sky {
-        display: none;
-      }
-
-      .launch {
-        display: none;
+        height: auto;
+        border-radius: 5px;
       }
 
     }
   }
+}
 
-  .home {
-    .walk {
-      @media(max-width: 500px) {
+
+.space-images {
+
+  @media(max-width: 500px) {
+    // border: 1px solid red;
+    height: auto;
+    display: flex;
+
+    img {
+      width: 100%;
+      display: block;
+      height: 100%;
+    }
+
+    .blast {
+      display: block;
+
+    }
+
+    .sky {
+      display: none;
+    }
+
+    .launch {
+      display: none;
+    }
+
+  }
+}
+
+.home {
+  .walk {
+    @media(max-width: 500px) {
+      border: 1px solid red;
+      display: flex;
+      flex-direction: column-reverse;
+      .center;
+
+
+      .walk-text {
         border: 1px solid red;
-        display: flex;
-        flex-direction: column-reverse;
-        .center;
+        display: block;
+        width: 450px;
+        padding: 8px;
 
-        .walk-text {
-          border: 1px solid red;
-          display: block;
-          width: 450px;
-          padding: 8px;
-
-          .btn {
-            .custom-button;
-            width: @phone;
-          }
-
-
+        .btn {
+          .custom-button;
+          width: @phone;
         }
 
+
       }
 
     }
+
   }
+}
