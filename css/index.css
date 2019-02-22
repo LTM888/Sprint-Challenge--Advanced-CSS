@@ -307,4 +307,19 @@ footer {
     width: 450px;
     padding: 8px;
   }
+  .home .walk .walk-text .btn {
+    background-color: #22283A;
+    color: #5E6164;
+    margin: 10px 30px 20px;
+    cursor: pointer;
+    padding: 10px 5%;
+    width: 400px;
+    font-size: 2rem;
+    border-radius: 10px;
+    width: max-width 500px;
+  }
+  .home .walk .walk-text .btn:hover {
+    background-color: #22283A;
+    color: #F6F6F6;
+  }
 }

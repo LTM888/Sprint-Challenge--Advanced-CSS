@@ -37,17 +37,19 @@
     }
 }
 
-.custom-button(@width: 200px, @font-color: white) {
+.custom-button() {
     background-color: @btn-bg-color;
-    color: @font-color;
+    color: @main-font-color;
     margin: 10px 30px 20px;
     cursor: pointer;
     padding: 10px 5%;
-    width: @width;
+    width: 400px;
     font-size: 2rem;
     border-radius: 10px;
 
     &:hover {
-        background-color: @font-color;
-        color: @btn-bg-color;
+        background-color: @btn-bg-color;
+        color: @nav-bg;
     }
+}
+    
